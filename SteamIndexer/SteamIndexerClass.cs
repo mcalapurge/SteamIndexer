@@ -32,7 +32,7 @@ namespace SteamIndexer
         }
     }
 
-    public class GameObject
+    public struct GameObject
     {
         public string Name { get; set; }
         public string Id { get; set; }
